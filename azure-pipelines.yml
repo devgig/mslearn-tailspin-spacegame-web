@@ -4,7 +4,7 @@ trigger:
     - '*'     # build all branches
   paths:
     exclude:
-    - '**/*.md'  # exclude the docs folder
+    - '*.md'  # exclude the docs folder
 
 pool:
   vmImage: 'Ubuntu-16.04'
